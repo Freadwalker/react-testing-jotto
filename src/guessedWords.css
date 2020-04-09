@@ -1,0 +1,16 @@
+.guessed-words-container{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+
+}
+.table-guess-column{
+    padding:10px;
+    margin:5px;
+}
+
+.table-match-column{
+    margin:5px;
+    padding:10px;
+}
