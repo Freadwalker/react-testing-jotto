@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { findByTestAttr, checkProps } from './test/testUtils';
+import { findByTestAttr, checkProps } from '../test/testUtils';
 import GuessedWords from './guessedWords';
 
 
@@ -32,6 +32,7 @@ describe('if no words are guessed',()=>{
         expect(instructions.text().length).not.toBe(0);
     })
 });
+
 describe('if there are words guesssed',()=>{
     let wrapper;
     const guessedWords = [
